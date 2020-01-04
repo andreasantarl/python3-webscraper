@@ -28,4 +28,4 @@ for article in articles:
 
 pprint.pprint(set(front_page_articles), indent=2)
 
-send_email()
+send_email(set(front_page_articles))
